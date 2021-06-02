@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+<meta charset="UTF-8"/>
+<title>Bedava Bitcoin</title>
+<style>
+
+html {
+              background: url(BTC.jpg) no-repeat center center fixed;
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+        }
+        h2{
+
+float:left;
+color:white;
+font-size:40px;
+text-align:left;
+
+        }
+       ul{
+          
+
+list-style-type: none;
+       }
+       a:hover{
+
+
+
+background-color:purple;
+
+
+
+       }
+       a{
+
+color:rgb(0, 217, 255);
+text-decoration:none;
+
+       }
+       img{
+           size:24px;
+
+
+
+
+       }
+
+
+    
+       
+
+
+
+</style>
+
+    </head>
+
+    <body>
+        <font face="arial" >
+       <!--Ozgur Kodcu Renk Değiştiren Yazı İntro Kodu--> <div style="text-align: center;">
+<span style="color: red; font-family: Courier New, Courier, monospace; font-size: large;"><span style="line-height: 18px;"></span></span></div>
+<br />
+<div style="text-align: center;">
+<span style="font-size:55px;"><b><script>
+var text="BEDAVA BİTCOİN"
+var speed=24 // SPEED OF FADE
+if (document.all||document.getElementById){
+document.write('<span id="highlight">' + text + '</span>')
+var storetext=document.getElementById? document.getElementById("highlight") : document.all.highlight
+}
+else
+document.write(text)
+var hex=new Array("00","14","28","3C","50","64","78","8C","A0","B4","C8","DC","F0")
+var r=1
+var g=1
+var b=1
+var seq=1
+function changetext(){
+rainbow="#"+hex[r]+hex[g]+hex[b]
+storetext.style.color=rainbow
+}
+function change(){
+if (seq==6){
+b--
+if (b==0)
+seq=1
+}
+if (seq==5){
+r++
+if (r==12)
+seq=6
+}
+if (seq==4){
+g--
+if (g==0)
+seq=5
+}
+if (seq==3){
+b++
+if (b==12)
+seq=4
+}
+if (seq==2){
+r--
+if (r==0)
+seq=3
+}
+if (seq==1){
+g++
+if (g==12)
+seq=2
+}
+changetext()
+}
+function starteffect(){
+if (document.all||document.getElementById)
+flash=setInterval("change()",speed)
+}
+starteffect()
+</script><span id="highlight" style="color: #c8f000;"></span> </b></span> <!--Ozgur Kodcu Renk Değiştiren Yazı İntro Bitişi--> 
+
+<p>
+
+<h2>KAÇIRILMAZ BİTCOİN FIRSATLARI!!! <br>
+PARA MI KAYBETDİN HİÇ MERAK ETME ÇÜNKÜ BİZ O PARAYI GERİ <span style="color: skyblue;" >GETİRECEZ</span> <br>
+<br>
+En uygun Bitcoin Fiyatları:
+<ul>
+<li>1 BTC=1000TL</li> 
+    <li>10 BTC=10000TL</li>
+<li>50 BTC=45000TL</li>
+<li>100 BTC=75000TL</li>
+<li>500 BTC=100000TL</li>
+<li>1000 BTC=150000TL</li>
+Her 50 Bitcoinde %5 indirim
+</ul>
+<br>
+<a href="#">ÖDEME BÖLÜMÜ</a> <br>
+<img align="right" src="https://www.doktorponzi.com/wp-content/uploads/2020/08/ciflik-bank_02ee029f0_1371.png"width="300" height="250" alt="Damga">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</h2>
+</p>
+
+
+
+
+
+
+
+</font>
+    </body>
+</html>
